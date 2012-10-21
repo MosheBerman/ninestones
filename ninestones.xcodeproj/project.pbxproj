@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46116D6D1423E38A00C4B683 /* NineStonesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46116D6C1423E38A00C4B683 /* NineStonesCell.xib */; };
+		46116D781423E6C100C4B683 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 46116D721423E6C100C4B683 /* Icon-Small.png */; };
+		46116D791423E6C100C4B683 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 46116D731423E6C100C4B683 /* Icon.png */; };
+		46116D7A1423E6C100C4B683 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46116D741423E6C100C4B683 /* Icon-Small@2x.png */; };
+		46116D7B1423E6C100C4B683 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 46116D751423E6C100C4B683 /* Icon-72.png */; };
+		46116D7C1423E6C100C4B683 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46116D761423E6C100C4B683 /* Icon@2x.png */; };
+		46116D7D1423E6C100C4B683 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 46116D771423E6C100C4B683 /* iTunesArtwork.png */; };
+		4642FF1314206435001871FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4642FF1214206435001871FE /* UIKit.framework */; };
+		4642FF1514206435001871FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4642FF1414206435001871FE /* Foundation.framework */; };
+		4642FF1714206435001871FE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4642FF1614206435001871FE /* CoreGraphics.framework */; };
+		4642FF1D14206435001871FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4642FF1B14206435001871FE /* InfoPlist.strings */; };
+		4642FF1F14206435001871FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4642FF1E14206435001871FE /* main.m */; };
+		4642FF2314206435001871FE /* ninestonesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4642FF2214206435001871FE /* ninestonesAppDelegate.m */; };
+		4642FF2614206435001871FE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4642FF2414206435001871FE /* MainWindow.xib */; };
+		4642FF2914206435001871FE /* ninestonesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4642FF2814206435001871FE /* ninestonesViewController.m */; };
+		4642FF2C14206435001871FE /* ninestonesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4642FF2A14206435001871FE /* ninestonesViewController.xib */; };
+		469B282B1633DDA600F6AD98 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 469B282A1633DDA600F6AD98 /* Default-568h@2x.png */; };
+		469B282D1633DDF700F6AD98 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 469B282C1633DDF700F6AD98 /* Icon-72@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		46116D6C1423E38A00C4B683 /* NineStonesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NineStonesCell.xib; sourceTree = "<group>"; };
+		46116D721423E6C100C4B683 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "ninestones/Icons/Icon-Small.png"; sourceTree = "<group>"; };
+		46116D731423E6C100C4B683 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ninestones/Icons/Icon.png; sourceTree = "<group>"; };
+		46116D741423E6C100C4B683 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "ninestones/Icons/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		46116D751423E6C100C4B683 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "ninestones/Icons/Icon-72.png"; sourceTree = "<group>"; };
+		46116D761423E6C100C4B683 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "ninestones/Icons/Icon@2x.png"; sourceTree = "<group>"; };
+		46116D771423E6C100C4B683 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iTunesArtwork.png; path = ninestones/Icons/iTunesArtwork.png; sourceTree = "<group>"; };
+		4642FF0E14206435001871FE /* ninestones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ninestones.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4642FF1214206435001871FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4642FF1414206435001871FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4642FF1614206435001871FE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4642FF1A14206435001871FE /* ninestones-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ninestones-Info.plist"; sourceTree = "<group>"; };
+		4642FF1C14206435001871FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4642FF1E14206435001871FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4642FF2014206435001871FE /* ninestones-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ninestones-Prefix.pch"; sourceTree = "<group>"; };
+		4642FF2114206435001871FE /* ninestonesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ninestonesAppDelegate.h; sourceTree = "<group>"; };
+		4642FF2214206435001871FE /* ninestonesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ninestonesAppDelegate.m; sourceTree = "<group>"; };
+		4642FF2514206435001871FE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		4642FF2714206435001871FE /* ninestonesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ninestonesViewController.h; sourceTree = "<group>"; };
+		4642FF2814206435001871FE /* ninestonesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ninestonesViewController.m; sourceTree = "<group>"; };
+		4642FF2B14206435001871FE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ninestonesViewController.xib; sourceTree = "<group>"; };
+		469B282A1633DDA600F6AD98 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		469B282C1633DDF700F6AD98 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72@2x.png"; path = "ninestones/Icons/Icon-72@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4642FF0B14206435001871FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4642FF1314206435001871FE /* UIKit.framework in Frameworks */,
+				4642FF1514206435001871FE /* Foundation.framework in Frameworks */,
+				4642FF1714206435001871FE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4642FF0314206434001871FE = {
+			isa = PBXGroup;
+			children = (
+				469B282A1633DDA600F6AD98 /* Default-568h@2x.png */,
+				469B282C1633DDF700F6AD98 /* Icon-72@2x.png */,
+				46116D721423E6C100C4B683 /* Icon-Small.png */,
+				46116D731423E6C100C4B683 /* Icon.png */,
+				46116D741423E6C100C4B683 /* Icon-Small@2x.png */,
+				46116D751423E6C100C4B683 /* Icon-72.png */,
+				46116D761423E6C100C4B683 /* Icon@2x.png */,
+				46116D771423E6C100C4B683 /* iTunesArtwork.png */,
+				4642FF1814206435001871FE /* ninestones */,
+				4642FF1114206435001871FE /* Frameworks */,
+				4642FF0F14206435001871FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4642FF0F14206435001871FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4642FF0E14206435001871FE /* ninestones.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4642FF1114206435001871FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4642FF1214206435001871FE /* UIKit.framework */,
+				4642FF1414206435001871FE /* Foundation.framework */,
+				4642FF1614206435001871FE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4642FF1814206435001871FE /* ninestones */ = {
+			isa = PBXGroup;
+			children = (
+				4642FF2114206435001871FE /* ninestonesAppDelegate.h */,
+				4642FF2214206435001871FE /* ninestonesAppDelegate.m */,
+				4642FF2414206435001871FE /* MainWindow.xib */,
+				4642FF2714206435001871FE /* ninestonesViewController.h */,
+				4642FF2814206435001871FE /* ninestonesViewController.m */,
+				4642FF2A14206435001871FE /* ninestonesViewController.xib */,
+				46116D6C1423E38A00C4B683 /* NineStonesCell.xib */,
+				4642FF1914206435001871FE /* Supporting Files */,
+			);
+			path = ninestones;
+			sourceTree = "<group>";
+		};
+		4642FF1914206435001871FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4642FF1A14206435001871FE /* ninestones-Info.plist */,
+				4642FF1B14206435001871FE /* InfoPlist.strings */,
+				4642FF1E14206435001871FE /* main.m */,
+				4642FF2014206435001871FE /* ninestones-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4642FF0D14206435001871FE /* ninestones */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4642FF2F14206435001871FE /* Build configuration list for PBXNativeTarget "ninestones" */;
+			buildPhases = (
+				4642FF0A14206435001871FE /* Sources */,
+				4642FF0B14206435001871FE /* Frameworks */,
+				4642FF0C14206435001871FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ninestones;
+			productName = ninestones;
+			productReference = 4642FF0E14206435001871FE /* ninestones.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4642FF0514206434001871FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = " Apps, Videos, Websites";
+			};
+			buildConfigurationList = 4642FF0814206434001871FE /* Build configuration list for PBXProject "ninestones" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4642FF0314206434001871FE;
+			productRefGroup = 4642FF0F14206435001871FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4642FF0D14206435001871FE /* ninestones */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4642FF0C14206435001871FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4642FF1D14206435001871FE /* InfoPlist.strings in Resources */,
+				4642FF2614206435001871FE /* MainWindow.xib in Resources */,
+				4642FF2C14206435001871FE /* ninestonesViewController.xib in Resources */,
+				46116D6D1423E38A00C4B683 /* NineStonesCell.xib in Resources */,
+				46116D781423E6C100C4B683 /* Icon-Small.png in Resources */,
+				46116D791423E6C100C4B683 /* Icon.png in Resources */,
+				46116D7A1423E6C100C4B683 /* Icon-Small@2x.png in Resources */,
+				46116D7B1423E6C100C4B683 /* Icon-72.png in Resources */,
+				46116D7C1423E6C100C4B683 /* Icon@2x.png in Resources */,
+				46116D7D1423E6C100C4B683 /* iTunesArtwork.png in Resources */,
+				469B282B1633DDA600F6AD98 /* Default-568h@2x.png in Resources */,
+				469B282D1633DDF700F6AD98 /* Icon-72@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4642FF0A14206435001871FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4642FF1F14206435001871FE /* main.m in Sources */,
+				4642FF2314206435001871FE /* ninestonesAppDelegate.m in Sources */,
+				4642FF2914206435001871FE /* ninestonesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4642FF1B14206435001871FE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4642FF1C14206435001871FE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4642FF2414206435001871FE /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4642FF2514206435001871FE /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		4642FF2A14206435001871FE /* ninestonesViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4642FF2B14206435001871FE /* en */,
+			);
+			name = ninestonesViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4642FF2D14206435001871FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4642FF2E14206435001871FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4642FF3014206435001871FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ninestones/ninestones-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "ninestones/ninestones-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4642FF3114206435001871FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ninestones/ninestones-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "ninestones/ninestones-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4642FF0814206434001871FE /* Build configuration list for PBXProject "ninestones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4642FF2D14206435001871FE /* Debug */,
+				4642FF2E14206435001871FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4642FF2F14206435001871FE /* Build configuration list for PBXNativeTarget "ninestones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4642FF3014206435001871FE /* Debug */,
+				4642FF3114206435001871FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4642FF0514206434001871FE /* Project object */;
+}
