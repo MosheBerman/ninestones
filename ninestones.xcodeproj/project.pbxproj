@@ -19,10 +19,10 @@
 		4642FF1714206435001871FE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4642FF1614206435001871FE /* CoreGraphics.framework */; };
 		4642FF1D14206435001871FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4642FF1B14206435001871FE /* InfoPlist.strings */; };
 		4642FF1F14206435001871FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4642FF1E14206435001871FE /* main.m */; };
-		4642FF2314206435001871FE /* ninestonesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4642FF2214206435001871FE /* ninestonesAppDelegate.m */; };
+		4642FF2314206435001871FE /* NNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4642FF2214206435001871FE /* NNAppDelegate.m */; };
 		4642FF2614206435001871FE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4642FF2414206435001871FE /* MainWindow.xib */; };
-		4642FF2914206435001871FE /* ninestonesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4642FF2814206435001871FE /* ninestonesViewController.m */; };
-		4642FF2C14206435001871FE /* ninestonesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4642FF2A14206435001871FE /* ninestonesViewController.xib */; };
+		4642FF2914206435001871FE /* NNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4642FF2814206435001871FE /* NNViewController.m */; };
+		4642FF2C14206435001871FE /* NNViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4642FF2A14206435001871FE /* NNViewController.xib */; };
 		469B282B1633DDA600F6AD98 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 469B282A1633DDA600F6AD98 /* Default-568h@2x.png */; };
 		469B282D1633DDF700F6AD98 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 469B282C1633DDF700F6AD98 /* Icon-72@2x.png */; };
 /* End PBXBuildFile section */
@@ -43,12 +43,12 @@
 		4642FF1C14206435001871FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4642FF1E14206435001871FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4642FF2014206435001871FE /* ninestones-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ninestones-Prefix.pch"; sourceTree = "<group>"; };
-		4642FF2114206435001871FE /* ninestonesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ninestonesAppDelegate.h; sourceTree = "<group>"; };
-		4642FF2214206435001871FE /* ninestonesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ninestonesAppDelegate.m; sourceTree = "<group>"; };
+		4642FF2114206435001871FE /* NNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNAppDelegate.h; sourceTree = "<group>"; };
+		4642FF2214206435001871FE /* NNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNAppDelegate.m; sourceTree = "<group>"; };
 		4642FF2514206435001871FE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		4642FF2714206435001871FE /* ninestonesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ninestonesViewController.h; sourceTree = "<group>"; };
-		4642FF2814206435001871FE /* ninestonesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ninestonesViewController.m; sourceTree = "<group>"; };
-		4642FF2B14206435001871FE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ninestonesViewController.xib; sourceTree = "<group>"; };
+		4642FF2714206435001871FE /* NNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNViewController.h; sourceTree = "<group>"; };
+		4642FF2814206435001871FE /* NNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNViewController.m; sourceTree = "<group>"; };
+		4642FF2B14206435001871FE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NNViewController.xib; sourceTree = "<group>"; };
 		469B282A1633DDA600F6AD98 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		469B282C1633DDF700F6AD98 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72@2x.png"; path = "ninestones/Icons/Icon-72@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,12 +105,12 @@
 		4642FF1814206435001871FE /* ninestones */ = {
 			isa = PBXGroup;
 			children = (
-				4642FF2114206435001871FE /* ninestonesAppDelegate.h */,
-				4642FF2214206435001871FE /* ninestonesAppDelegate.m */,
+				4642FF2114206435001871FE /* NNAppDelegate.h */,
+				4642FF2214206435001871FE /* NNAppDelegate.m */,
 				4642FF2414206435001871FE /* MainWindow.xib */,
-				4642FF2714206435001871FE /* ninestonesViewController.h */,
-				4642FF2814206435001871FE /* ninestonesViewController.m */,
-				4642FF2A14206435001871FE /* ninestonesViewController.xib */,
+				4642FF2714206435001871FE /* NNViewController.h */,
+				4642FF2814206435001871FE /* NNViewController.m */,
+				4642FF2A14206435001871FE /* NNViewController.xib */,
 				46116D6C1423E38A00C4B683 /* NineStonesCell.xib */,
 				4642FF1914206435001871FE /* Supporting Files */,
 			);
@@ -154,8 +154,9 @@
 		4642FF0514206434001871FE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = NN;
 				LastUpgradeCheck = 0450;
-				ORGANIZATIONNAME = " Apps, Videos, Websites";
+				ORGANIZATIONNAME = "Moshe Berman";
 			};
 			buildConfigurationList = 4642FF0814206434001871FE /* Build configuration list for PBXProject "ninestones" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -181,7 +182,7 @@
 			files = (
 				4642FF1D14206435001871FE /* InfoPlist.strings in Resources */,
 				4642FF2614206435001871FE /* MainWindow.xib in Resources */,
-				4642FF2C14206435001871FE /* ninestonesViewController.xib in Resources */,
+				4642FF2C14206435001871FE /* NNViewController.xib in Resources */,
 				46116D6D1423E38A00C4B683 /* NineStonesCell.xib in Resources */,
 				46116D781423E6C100C4B683 /* Icon-Small.png in Resources */,
 				46116D791423E6C100C4B683 /* Icon.png in Resources */,
@@ -202,8 +203,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4642FF1F14206435001871FE /* main.m in Sources */,
-				4642FF2314206435001871FE /* ninestonesAppDelegate.m in Sources */,
-				4642FF2914206435001871FE /* ninestonesViewController.m in Sources */,
+				4642FF2314206435001871FE /* NNAppDelegate.m in Sources */,
+				4642FF2914206435001871FE /* NNViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,12 +227,12 @@
 			name = MainWindow.xib;
 			sourceTree = "<group>";
 		};
-		4642FF2A14206435001871FE /* ninestonesViewController.xib */ = {
+		4642FF2A14206435001871FE /* NNViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4642FF2B14206435001871FE /* en */,
 			);
-			name = ninestonesViewController.xib;
+			name = NNViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -283,10 +284,12 @@
 		4642FF3014206435001871FE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ninestones/ninestones-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "ninestones/ninestones-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -295,10 +298,12 @@
 		4642FF3114206435001871FE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ninestones/ninestones-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "ninestones/ninestones-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
