@@ -26,7 +26,7 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad{
     [super viewDidLoad];
-    
+
     //
     //  Initialize to nine stones
     //
@@ -40,6 +40,12 @@
     
     [self.numberOfStonesInput setText:@"9"];    
     [self.numberOfStonesInput becomeFirstResponder];
+    
+    //
+    //  Set the background color
+    //
+    
+    [[self view] setBackgroundColor:[UIColor groupTableViewBackgroundColor]];
     
 }
 
