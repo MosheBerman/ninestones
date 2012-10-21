@@ -45,7 +45,7 @@
     //  Set the background color
     //
     
-    [[self view] setBackgroundColor:[UIColor groupTableViewBackgroundColor]];
+    [[self view] setBackgroundColor:[UIColor darkGrayColor]];
     
 }
 
